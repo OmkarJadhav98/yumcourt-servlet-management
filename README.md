@@ -12,6 +12,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ## Project Overview
 The **YumCourt-Servlet-Management** project is designed to facilitate an online food ordering system where customers can browse restaurant menus, place orders, and have their food delivered by delivery executives. The system supports CRUD operations for managing customers, restaurants, menus, orders, addresses, and more.
@@ -107,3 +108,8 @@ Contributions are welcome! Please follow these steps:
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Contact
+If you have any questions, suggestions, or issues, feel free to reach out to me:
+
+- **Email:** [objadhav28@gmail.com](mailto:objadhav28@gmail.com)
+- **GitHub:** [OmkarJadhav98](https://github.com/OmkarJadhav98)
