@@ -53,8 +53,20 @@ The **YumCourt-Servlet-Management** project is designed to facilitate an online 
 3.  **Build the project using Maven**:
     ```bash
     mvn clean install
-    
+    ```
 4. **Deploy the application**:
 -    Copy the generated WAR file to the `webapp` directory of your servlet container (e.g., Apache Tomcat).
 -    Start your servlet container.
+
+## Configuration
+### Database Configuration 
+Update the following properties in `src/main/resources/db.properties`:
+```properties
+    db.url=jdbc:mysql://localhost:3306/yumcourt_db
+    db.username=root
+    db.password=spartans@9922
+```
+
+### Servlet Configuration
+Ensure that the `web.xml` file is properly configured to map servlets and configure their initialization parameters.
 
