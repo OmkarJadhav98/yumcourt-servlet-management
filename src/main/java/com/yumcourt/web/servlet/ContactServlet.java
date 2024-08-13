@@ -5,12 +5,6 @@ import com.yumcourt.web.servlet.model.Address;
 import com.yumcourt.web.servlet.service.ContactService;
 import com.yumcourt.web.servlet.service.AddressService;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 @WebServlet("/contact")
 public class ContactServlet extends HttpServlet {
