@@ -39,3 +39,14 @@ The **YumCourt-Servlet-Management** project is designed to facilitate an online 
 -   Maven 3.6.0 or higher
 -   MySQL 5.7 or higher
 -   IntelliJ IDEA (optional, but recommended)
+
+### Steps
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/OmkarJadhav98/yumcourt-servlet-management.git
+    cd yumcourt-servlet-management 
+2.  Configure the database:
+-    Create a MySQL database named yumcourt_db.
+-    Run the provided SQL script to create the necessary tables.
+-    Update the database connection details in `src/main/resources/db.properties`.
+
