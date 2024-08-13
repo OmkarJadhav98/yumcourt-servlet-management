@@ -70,3 +70,21 @@ Update the following properties in `src/main/resources/db.properties`:
 ### Servlet Configuration
 Ensure that the `web.xml` file is properly configured to map servlets and configure their initialization parameters.
 
+## Running the Application
+Once the project is built and deployed:
+1.  Open a web browser and navigate to `http://localhost:8080/yumcourt-servlet-management`.
+2.  Use the available forms to manage customers, restaurants, menus, orders, and more.
+
+## Usage
+### Accessing the Application
+-   Address Management: Navigate to /address_form.html to manage addresses.
+-   Customer Management: Navigate to /customer_form.html to manage customers.
+-   Restaurant Management: Navigate to /restaurant_form.html to manage restaurants.
+-   Order Management: Navigate to /order_form.html to manage orders.
+-   Delivery Management: Navigate to /delivery_executive_form.html to manage delivery executives.
+
+### Adding a New Customer
+1.  Open `order_form.html`.
+2.  Select the customer, restaurant, and menu items.
+3.  Assign a delivery executive.
+4.  Click "Place Order" to submit.
