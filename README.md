@@ -14,17 +14,17 @@
 - [📜 License](#license)
 - [📬 Contact](#contact)
 
-## Project Overview
+## 📖 Project Overview
 The **YumCourt-Servlet-Management** project is designed to facilitate an online food ordering system where customers can browse restaurant menus, place orders, and have their food delivered by delivery executives. The system supports CRUD operations for managing customers, restaurants, menus, orders, addresses, and more.
 
-## Features
--   Address Management: Manage customer delivery addresses  
--   Customer Management: Add, update, and delete customer details.
--   Restaurant Management: Manage restaurant information and menus.
--   Order Management: Place, update, and cancel orders.
--   Delivery Management: Assign and track delivery executives for orders.
+## ✨ Features
+-   📍 Address Management: Manage customer delivery addresses  
+-   👤 Customer Management: Add, update, and delete customer details.
+-   🍴 Restaurant Management: Manage restaurant information and menus.
+-   🛒 Order Management: Place, update, and cancel orders.
+-   🚚 Delivery Management: Assign and track delivery executives for orders.
 
-## Technologies Used
+## 🛠️ Technologies Used
 -   Java: Core programming language.
 -   Servlets & JSP: Used for handling HTTP requests and responses.
 -   JDBC: For database connectivity and operations.
@@ -34,12 +34,12 @@ The **YumCourt-Servlet-Management** project is designed to facilitate an online 
 -   IntelliJ IDEA: Preferred IDE for development.
 -   MySQL: Database for storing application data.
 
-## Installation
+## ⚙️ Installation
 ### Prerequisites
--   Java 8 or higher
--   Maven 3.6.0 or higher
--   MySQL 5.7 or higher
--   IntelliJ IDEA (optional, but recommended)
+-   ☕ Java 8 or higher
+-   🧰 Maven 3.6.0 or higher
+-   🗄️ MySQL 5.7 or higher
+-   💻 IntelliJ IDEA (optional, but recommended)
 
 ### Steps
 1.  **Clone the repository**:
@@ -59,7 +59,7 @@ The **YumCourt-Servlet-Management** project is designed to facilitate an online 
 -    Copy the generated WAR file to the `webapp` directory of your servlet container (e.g., Apache Tomcat).
 -    Start your servlet container.
 
-## Configuration
+## 🔧 Configuration
 ### Database Configuration 
 Update the following properties in `src/main/resources/db.properties`:
 ```properties
@@ -71,12 +71,12 @@ Update the following properties in `src/main/resources/db.properties`:
 ### Servlet Configuration
 Ensure that the `web.xml` file is properly configured to map servlets and configure their initialization parameters.
 
-## Running the Application
+## 🚀 Running the Application
 Once the project is built and deployed:
 1.  Open a web browser and navigate to `http://localhost:8080/yumcourt-servlet-management`.
 2.  Use the available forms to manage customers, restaurants, menus, orders, and more.
 
-## Usage
+## 💡 Usage
 ### Accessing the Application
 -   Address Management: Navigate to /address_form.html to manage addresses.
 -   Customer Management: Navigate to /customer_form.html to manage customers.
