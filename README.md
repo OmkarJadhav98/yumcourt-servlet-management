@@ -25,14 +25,16 @@ The **YumCourt-Servlet-Management** project is designed to facilitate an online 
 -   🚚 Delivery Management: Assign and track delivery executives for orders.
 
 ## 🛠️ Technologies Used
--   Java: Core programming language.
--   Servlets & JSP: Used for handling HTTP requests and responses.
--   JDBC: For database connectivity and operations.
--   HTML/CSS: Frontend design and layout.
--   Maven: Build automation tool.
--   Git: Version control system.
--   IntelliJ IDEA: Preferred IDE for development.
--   MySQL: Database for storing application data.
+
+- ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) Core programming language.
+- ![Servlets](https://img.shields.io/badge/Servlets-FFCC00?style=for-the-badge&logo=apache&logoColor=black) Used for handling HTTP requests and responses.
+- ![JDBC](https://img.shields.io/badge/JDBC-003B57?style=for-the-badge&logo=java&logoColor=white) For database connectivity and operations.
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) Frontend design and layout.
+- ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) Build automation tool.
+- ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) Version control system.
+- ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white) Preferred IDE for development.
+- ![MySQL](https://img.shields.io/badge/MySQL-00618A?style=for-the-badge&logo=mysql&logoColor=white) Database for storing application data.
+
 
 ## ⚙️ Installation
 ### Prerequisites
@@ -96,7 +98,7 @@ Once the project is built and deployed:
 3.  Assign a delivery executive.
 4.  Click "Place Order" to submit.
 
-## Contributing
+## 🤝 Contributing
 Contributions are welcome! Please follow these steps:
 
 1.  Fork the repository.
@@ -105,10 +107,10 @@ Contributions are welcome! Please follow these steps:
 4.  Push to the branch: git push origin feature-name.
 5.  Submit a pull request.
 
-## License
+## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+## 📬 Contact
 If you have any questions, suggestions, or issues, feel free to reach out to me:
 
 - **Email:** [objadhav28@gmail.com](mailto:objadhav28@gmail.com)
