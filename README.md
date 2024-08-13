@@ -32,3 +32,10 @@ The **YumCourt-Servlet-Management** project is designed to facilitate an online 
 -   Git: Version control system.
 -   IntelliJ IDEA: Preferred IDE for development.
 -   MySQL: Database for storing application data.
+
+## Installation
+### Prerequisites
+-   Java 8 or higher
+-   Maven 3.6.0 or higher
+-   MySQL 5.7 or higher
+-   IntelliJ IDEA (optional, but recommended)
