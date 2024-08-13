@@ -41,12 +41,20 @@ The **YumCourt-Servlet-Management** project is designed to facilitate an online 
 -   IntelliJ IDEA (optional, but recommended)
 
 ### Steps
-1.  Clone the repository:
+1.  **Clone the repository**:
     ```bash
     git clone https://github.com/OmkarJadhav98/yumcourt-servlet-management.git
     cd yumcourt-servlet-management 
-2.  Configure the database:
+2.  **Configure the database**:
 -    Create a MySQL database named yumcourt_db.
 -    Run the provided SQL script to create the necessary tables.
--    Update the database connection details in `src/main/resources/db.properties`.
+  -    Update the database connection details in `src/main/resources/db.properties`.
+ 
+3.  **Build the project using Maven**:
+    ```bash
+    mvn clean install
+    
+4. **Deploy the application**:
+-    Copy the generated WAR file to the `webapp` directory of your servlet container (e.g., Apache Tomcat).
+-    Start your servlet container.
 
